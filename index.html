@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>A simple JS Calendar</title>
   </head>
   <body>
@@ -10,9 +11,6 @@
       <section class="title">
         <h1>A JavaScript Calendar</h1>
         <p>When you select a month it will populate it's days</p>
-      </section>
-
-      <section class="calendar">
         <select class="calendar-select" name="calendar-select">
           <option value="jan">Janurary</option>
           <option value="feb">February</option>
@@ -27,16 +25,24 @@
           <option value="nov">November</option>
           <option value="dec">December</option>
         </select>
+      </section>
 
+      <section class="calendar">
         <div class="calendar-bg">
-            <ul class="visual-calendar"></ul>
-        </div>      
+            <ul class="visual-calendar">
+            </ul>
+        </div>
 
         <div class="quote-bg">
-          <p class="monthly-quote"></p>
+          <div class="text">
+            <p class="monthly-quote"></p>
+            <p class="quote-author"></p>
+          </div>
         </div>
       </section>
     </main>
+
+    <script type="text/javascript" src="script.js"></script>
 
   </body>
 </html>
