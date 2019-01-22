@@ -1,0 +1,78 @@
+* { margin: 0; }
+html, body {
+  height: 100%;
+  weight: 100%;
+  font-family: sans-serif;
+}
+
+main { position: relative; }
+
+.title {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translateY(35%);
+  display: block;
+}
+h1 { text-decoration: underline; font-size: 2.5em; line-height: 1.9em;}
+
+.title p { margin-bottom: 10px; }
+
+select {
+  padding: 5px 8px;
+  margin-bottom: 10px;
+}
+
+li {
+  border: 1px solid #ccc;
+  display: inline-block;
+  list-style-type: none;
+  box-sizing: border-box;
+  width: 80px;
+  max-width: 560px;
+  height: 80px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0 auto;
+  color: #333;
+  font-weight: bold;
+}
+
+.calendar {
+  width: 70%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translateY(40%);
+}
+
+.calendar-bg, .quote-bg {
+  float: left;
+  box-sizing: border-box;
+  height: 550px;
+}
+
+.calendar-bg {
+  width: 620px;
+  background-color: #eee;
+  padding-top: 50px;
+}
+
+.quote-bg {
+  width: 300px;
+  background-color: #ff0384;
+  text-align: center;
+  color: #fff;
+
+}
+
+.text {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 51.5%;
+  transform: translateY(-50%;)
+}
+
+.quote-author { font-style: italic; }
+.quote-author::before { content: "- ";}
