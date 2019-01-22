@@ -20,7 +20,6 @@ quotes_array [ 'mar_quote' ] = 'Where water is the boss there the land must obey
 quotes_array [ 'mar_author' ] = 'African Proverb';
 quotes_array [ 'mar_background' ] = '#9a6324';
 
-
 quotes_array [ 'apr_quote' ] = 'No matter how beautiful and well crafted a coffin \
 might look, it will not make anyone wish for death.';
 quotes_array [ 'apr_author' ] = 'African Proverb';
@@ -29,7 +28,6 @@ quotes_array [ 'apr_background' ] = '#469990';
 quotes_array [ 'may_quote' ] = 'When the shepherd comes home in peace, the milk is sweet.';
 quotes_array [ 'may_author' ] = 'Ethopian Proverb';
 quotes_array [ 'may_background' ] = '#808000';
-
 
 quotes_array [ 'jun_quote' ] = 'A spider’s cobweb isn’t only its sleeping spring \
  but also its food trap.';
@@ -51,7 +49,6 @@ quotes_array [ 'sep_background' ] = '#f032e6';
 quotes_array [ 'oct_quote' ] = 'You have little power over what’s not yours.';
 quotes_array [ 'oct_author' ] = 'Zimbabwean Proverb';
 quotes_array [ 'oct_background' ] = '#000';
-
 
 quotes_array [ 'nov_quote' ] = 'If you pick up one end of the stick you also pick \
 up the other.';
