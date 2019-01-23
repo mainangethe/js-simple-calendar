@@ -6,7 +6,7 @@ I added a personal twist by also adding displaying African quotes per month.
 > [Visit Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
 
 ## Documentation
-The project took me a total of: **5 Hourss** to complete.
+The project took me a total of: **5 Hours** to complete.
 
 ### HTML Overview
 Here we've got an HTML `<select>` element allowing us to choose any of the 12 months in a year.  
@@ -42,7 +42,7 @@ Then it runs a `for` loop: within the loops block it creates a new variable that
 It then appends a '0' for all digits between 1 and 9.
 And then adds the digit to the list.
 Finally the list is appended back to the same `<ul>` element.
-The total number of lists element generated together with the loop limit is set by the days of the month variable.
+The total number of `<li>` element generated together with the loop limit is set by the days of the month variable.
 
 
 #### How the quotePicker( month ) works
